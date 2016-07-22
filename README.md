@@ -1,2 +1,2 @@
 # www.marxists.org
-Mirror of www.marxists.org
+Mirror of https://www.marxists.org
