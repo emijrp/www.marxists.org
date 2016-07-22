@@ -1,6 +1,6 @@
 ## What is this?
 
-This repository is a mirror of [https://www.marxists.org](Marxists Internet Archive).
+This repository is a mirror of [Marxists Internet Archive](https://www.marxists.org).
 
 You can browse the mirror in https://emijrp.github.io/www.marxists.org/
 
