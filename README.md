@@ -1,8 +1,10 @@
-Mirror of https://www.marxists.org
+## What is this?
 
-Location of mirror https://emijrp.github.io/www.marxists.org/
+This repository is a mirror of [https://www.marxists.org](Marxists Internet Archive).
 
-Techincal details:
+You can browse the mirror in https://emijrp.github.io/www.marxists.org/
+
+## Technical details
 
 wget --mirror --no-parent --page-requisites --continue https://www.marxists.org/espanol/
 
