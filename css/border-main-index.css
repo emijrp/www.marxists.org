@@ -1,0 +1,118 @@
+/* =============================================*/
+/* Main Index   (black main index variation)    */
+/* =============================================*/
+/* On replication:								*/
+/* 1. Change color: #330000						*/
+/* 2. Change a:link and visited colors			*/
+/* 3. Change div.border solid color				*/
+/* =============================================*/
+/*								                */
+/* Version 1.6.2							    */
+/* 01/01/2002 									*/
+/*												*/
+/* by Brian  				  (Winter 2006) */
+/*     http://www.marxists.org/css/   		    */
+/* =============================================*/
+	
+		 
+body { background : #040404 }
+a:link { color: #ddbb77; background: transparent }
+a:visited { color: #bb9944; background: transparent }
+
+hr.section { width: 44%; height: 4px; color: #660000; }
+hr.base { width: 92%; height: 1px; color: #000000; }
+hr.end { width: 92%; height: 2px; color: #660000; }
+hr { width: 94%; height: 2px; color: #660000; }
+
+
+
+/* Basic p */
+p {
+ text-indent: 1em;
+ color: #000000;
+ background: transparent;
+ font-family: "Times New Roman", serif;
+ font-size: 12pt;
+ text-align: justify;
+ line-height: 150%;
+ margin-left: 6%;
+ margin-right: 6%;
+ }
+
+p.pagenote {
+ background: transparent;
+ text-indent: 0em;
+ color: #ccaa66; 
+ font-family : "Arial", sans-serif;
+ font-size: 11pt;
+ text-align: center;
+ margin-left: 2%;
+ margin-right: 2%;
+ line-height: 125%;
+}
+ 
+/* Basic p -- without first line indent */
+p.fst {
+ text-indent: 0em;
+ font-family : "Times New Roman", serif;
+ font-size: 12pt;
+ text-align: justify;
+ margin-left: 6%;
+ margin-right: 6%;
+ }
+
+/* Used for notes in the text */
+span.term {
+ background: transparent;
+ color: #660000; 
+ font-family : "Arial", sans-serif;
+ font-size: 12pt;
+ font-weight: bold;
+}
+
+ 
+/* Misc page note (justified) */
+p.pagenoteb {
+ background: transparent;
+ color: #ccaa66; 
+ font-family : "Arial", sans-serif;
+ font-size: 11pt;
+ text-align: justify;
+ line-height: 170%;
+ margin-left: 2%;
+ margin-right: 2%;
+ }
+ 
+ 
+/* Page bottom links */
+p.footer {  
+ text-indent: 0em; 
+ font-weight: bold;
+ font-family : "Arial", sans-serif;
+ font-size: 12pt; 
+ text-align: center; 
+ margin: 3%;
+ }
+
+/* =====================================*/
+/* End of elements             		    */
+/* =====================================*/
+/* =====================================*/
+/* Adjustments for Mobile Devices       */
+/* =====================================*/
+
+@media (max-width: 480px) {
+  p { font-size: 12pt; margin-left: 1%; margin-right: 1%; margin-bottom: 4pt; margin-top: 4pt; line-height: 125%; }
+  blockquote {margin-left: 1%; margin-right: 1%; }
+  p.title { font-size: 11pt; }
+  p.indentb { margin-left: 6%; margin-right: 1%; }
+  p.quoteb { margin-left: 6%; margin-right: 1%; }
+  p.index { margin-left: 6%; margin-right: 1%; }
+  h1 { font-size: 16pt; }
+  h2 { font-size: 15pt; }
+  h3 { font-size: 14pt; }
+  h4 { font-size: 13pt; }
+  h5 { margin-left: 1%; }
+  h6 { margin-left: 1%; }
+  div.border { width: 95%; padding: 0.5em; border: 0.2em solid #ffcc33; }
+}
